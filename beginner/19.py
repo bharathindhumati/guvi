@@ -1,9 +1,9 @@
 u=int(input())
-fact=1
+factorial=1
 if(u==0):
-    print("1")
+    print(1)
 else:
     for i in range(1,u+1):
-    fact=fact*i
-print(fact)
+    factorial=factorial*i
+print(factorial)
     
